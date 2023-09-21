@@ -45,7 +45,7 @@ public class IndexServlet extends HttpServlet
         else
         {
             alertType = "danger";
-            result = "Valor introducido no valido";
+            result = "Valor introducido no válido.";
         }
         
         request.getSession().setAttribute("result", result);

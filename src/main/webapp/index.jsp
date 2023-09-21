@@ -39,8 +39,6 @@
                         <button type="submit" class="btn btn-primary mt-3" name="dollars">Convertir a dolares</button>
                     </form>
 
-                    <br>
-
                     <%
                         String result = (String) session.getAttribute("result");
                         String alertType = (String ) session.getAttribute("alertType");
